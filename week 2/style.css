@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: blue;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    letter-spacing: 2px;
+}
+.highlight {
+    background-color: yellow;
+}
+#main {
+    border: 1px solid black;
+    padding: 10px;
+}

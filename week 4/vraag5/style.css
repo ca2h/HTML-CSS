@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a[href^="http"]{
+    border: 5px solid green;
+}
+a{
+    display: block;
+    padding: 2%;
+    margin: 1%;
+}
+a[title]{
+    border: 5px solid pink;
+}
+a[href*="contact"]{
+    border: 5px solid orange;
+}

@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price-card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 4px black;
+    text-align: center;
+    background-color: #eaeaea;
+    margin: 2%;
+}
+img{
+    width: 200px;
+    height: auto;
+    padding: 5%;
+}
+.mover{
+    display: flex;
+    flex-direction: row;
+
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    margin-bottom: 5px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 5px solid black;
+}
+.b2{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.b3{
+    border-radius: 50px;
+}
+.b4{
+    border-bottom:none;
+    border-right:none;
+}
+.b5{
+    border-bottom:none;
+    border-right:none;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
