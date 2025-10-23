@@ -1,0 +1,41 @@
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2.1fr 0.5fr;
+    gap: 5% 2%;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Header Header Header"
+        "Sidebar Main Main"
+        "footer footer footer";
+}
+
+.Header {
+    grid-area: Header;
+}
+
+.Sidebar {
+    grid-area: Sidebar;
+}
+
+.Main {
+    grid-area: Main;
+}
+
+.footer {
+    grid-area: footer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:22px;
+    text-align: center;
+}
+
+.Header,
+.Sidebar,
+.Main,
+.footer{
+    background-color: beige;
+    border: 1px solid black;
+    
+}
