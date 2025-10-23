@@ -1,11 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <main>
+        <h2>Testen met formulieren</h2>
+        <form action="registration.php" method="post">
+            <label for="fname">Voor naam</label>
+            <input type="text" id="fname" name="firstname" required>
+            <label for="tel">Telefoon nummer</label>
+            <input type="tel" id="tel" name="telnumber" required>
+            <label for="bday">Geboortedatum</label>
+            <input type="date" id="bday" name="birthday">
+            <label for="music">Favorite muziek</label>
+            <select id="music" name="music[]" multiple>
+                <option value="juicewrld">Juice wrld</option>
+                <option value="popsmoke">Pop Smoke</option>
+                <option value="kanye">Kanye West</option>
+            </select>
+            <input type="submit" name="submit" value="Afronden">
+        </form>
+    </main>
+    </body>
+    </html>
