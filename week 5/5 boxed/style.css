@@ -23,8 +23,8 @@ body{
 .box:nth-child(2){
     background-color: yellow;
     position: absolute;
-    bottom:378px;
-    left:318px;
+    bottom:620px;
+    left:330px;
 }
 .box:nth-child(3){
     background-color: green;
@@ -43,6 +43,6 @@ body{
 .box:nth-child(5){
     background-color: blue;
     position: absolute;
-    left:318px;
+    left:330px;
     top:300px;
 }
